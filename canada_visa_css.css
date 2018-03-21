@@ -1,0 +1,101 @@
+#canada_section 
+{
+  width: 700px;
+  margin-top: 20px;
+  margin-right: 50px;
+  margin-left: 50px;
+  padding: 17px;
+  float: left;
+  background-color: white;
+  border: 1px solid black;
+  box-shadow: 4px 4px 10px grey;
+  position: absolute;
+}
+#canada_section>div>h3{
+  width: 600px;
+  background-color: darkgrey;
+  border: 1px solid grey;
+  width: 688px;
+}
+#canada_section>div
+{
+  background-color: lightgrey;
+  border: 2px 2px 0px 2px solid darkgrey;
+}
+#canada_section>div>h3{
+  padding: 5px;
+}
+#contact{
+  margin-top: 90px;
+  margin-right: 50px;
+  width: 300px;
+  float:right;
+  padding: 20px;
+  border: 1px solid black;
+  box-shadow: 4px 4px 10px grey;
+  background-color: white;
+}
+#contact>h1,p{
+  margin-top: 20px;
+  text-align:justify;
+}
+#contact>h1
+{
+  margin-left: 40px;
+  color: dodgerblue;
+
+}
+.footercss
+{
+  clear: both;
+}
+Section{
+  width: 100%;
+  height: 4050px;
+  background-color:#e9e9e9;
+}
+#flag
+{
+  height="84px"; 
+  width="200px";
+  position: relative;
+  left: 250px;
+  padding: 20px;
+             
+}
+#canada3{
+  position: relative;
+  border: 2px solid darkgrey;
+  margin: 30px;
+  width: 635px;
+}
+#canada3>h3{
+  background-color: darkgrey;
+  padding: 6px;
+}
+#canada_section h2{
+  padding-left: 20px;
+  padding-top: 10px;
+  color: blue;
+
+}
+#canada3>p{
+  padding: 0px 20px 20px 20px;
+}
+table{
+  margin-top: 15px;
+  margin-left: 15px;
+  border: 1px solid darkgrey;
+}
+th{
+  vertical-align: top;
+  padding-top: 15px;
+  color: firebrick;
+  border: 1px solid darkgrey;
+}
+td{
+  text-align: justify;
+  padding: 15px;
+  border: 1px solid darkgrey;
+  
+}

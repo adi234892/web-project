@@ -1,0 +1,175 @@
+#navmenu ul li{
+  background-color: black;
+  color: white;
+  width: 180px;
+  float: left;
+  list-style: none;
+  line-height: 50px;
+  text-indent:8px;
+  height: 50px;
+  position: relative;
+  font-size: 13px;
+}
+#navmenu ul li a{
+  text-decoration: none;
+  color: white;
+}
+#navmenu ul li ul li
+{
+  width: 180px;
+}
+#navmenu ul li:hover {
+  background-color: yellow;
+  color: black;
+  cursor: pointer;
+  }
+#navmenu >ul>li:hover> span{
+  color: black;
+}
+#navmenu >ul>li>ul>li:hover>span{
+  color: black;
+}
+
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+#navmenu ul ul{
+  display: none;
+}
+#navmenu ul li:hover > ul
+{
+  display: block;
+}
+#navmenu ul ul li{
+  position: relative;
+}
+#navmenu ul li ul li>ul li{ 
+  margin-left: 180px;
+}
+#can>img{
+  width: 20px;
+  height:30px;
+  left: 50px;
+  top: 10px;
+  position: relative;
+-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(60%);
+}
+#navmenu ul ul ul{
+  top: 0px;
+  position: absolute;
+}
+#navmenu{
+  padding: 10px;
+}
+#head {
+  font-family: sans-serif;
+  height: 150px;
+  background-image: url(head.jpeg);
+  position: relative;
+  z-index: 1;
+}
+#head h2{
+  display: inline-block;
+  padding: 20px;
+  font-size: 20px;
+  color: white;
+}
+#cname{
+  box-shadow: 3px 6px 10px grey;
+  background-color: yellow;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+#email{
+  background-color: transparent;
+  /*box-shadow: 3px 6px 10px grey;*/
+  font-style: oblique;
+}
+#pno{
+  background-color: black;
+}
+#pay{
+  background-color: deepskyblue;
+  font-style: italic;
+}
+hr{
+  color: yellow;
+  
+}
+.search-container{
+  float: right;
+  margin-top: 25px;
+  overflow: hidden;
+  height: 30px;
+  margin-right: 20px;
+}
+.search-container>form>input{
+  height: 30px;
+  border-radius: 25px;
+  width: 230px;
+  text-align: center;
+}
+.search-container>form>button
+{
+  height: 30px;
+  border-radius: 25px;
+  float: right;
+  width: 29px;
+  
+}
+#chat{
+  width: 200px;
+  position: fixed;
+  right:20px;
+  bottom:0px;
+  }
+
+#chat>div>form>input
+{
+  margin: 10px;
+  height: 20px;
+  margin-left: 15px;
+  
+}
+#cbtn{
+  text-align:center;
+  background-color: royalblue;
+  color: white;
+  width: 200px;
+  height: 30px;
+  font-size: 20px;
+  bottom: 0px;
+  border: none;
+  padding: 0;
+  cursor:pointer;
+}
+#cbtn>strong
+{
+  font-size: 22px;
+}
+#chatform
+{
+  height: 270px;
+  display: none;
+  background-color: yellow;
+}
+#chatE
+{
+  text-align: center;
+}
+#submit{
+  position: absolute;
+  left:30px; 
+}
+#msg{
+  height: 20px;
+}
+
+span{
+  position: absolute;
+  right: 5px;
+  color: white;
+}

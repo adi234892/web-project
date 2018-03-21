@@ -1,0 +1,37 @@
+footer>.footercss{
+  color: black;
+  box-shadow: 7px 7px 5px grey;
+  float: left;
+  width: 300px;
+  position: relative;
+  padding: 25px;
+  top:30px;
+  left: 15px;
+}
+footer{
+  
+}
+hr{
+  color: yellow;
+margin-bottom: 10px;
+  font-weight: bolder;
+}
+footer>.iframe{
+  position: relative;
+  color: black;
+  box-shadow: 7px 7px 5px grey;
+  float: left;
+  width: 400px;
+  padding: 25px;
+  height: 250px;
+  padding-left: 50px;
+  left: 50px;
+  display: block;
+  
+}
+#copy
+{clear: left;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}

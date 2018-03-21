@@ -1,0 +1,48 @@
+#mice_section 
+{
+  width: 700px;
+  margin-top: 20px;
+  margin-right: 50px;
+  margin-left: 50px;
+  padding: 17px;
+  float: left;
+  background-color: white;
+  border: 1px solid black;
+  box-shadow: 4px 4px 10px grey;
+  position: absolute;
+}
+
+#mice_section>div
+{
+  background-color: lightgrey;
+  border: 2px 2px 0px 2px solid darkgrey;
+}
+#contact{
+  margin-top: 90px;
+  margin-right: 50px;
+  width: 300px;
+  float:right;
+  padding: 20px;
+  border: 1px solid black;
+  box-shadow: 4px 4px 10px grey;
+  background-color: white;
+}
+#contact>h1,p{
+  margin-top: 20px;
+  text-align:justify;
+}
+#contact>h1
+{
+  margin-left: 40px;
+  color: dodgerblue;
+
+}
+.footercss
+{
+  clear: both;
+}
+Section{
+  width: 100%;
+  height: 700px;
+  background-color:#e9e9e9;
+}

@@ -1,0 +1,94 @@
+.package>div{
+  padding-left:30px;
+}
+.pimg{
+  float: left;
+  width: 360px;
+  height: 200px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  margin-left: 20px; 
+}
+.dubai{
+  position: absolute;
+  text-align: center;
+  
+}
+.tdubai{
+  position: absolute;
+  left: 80px;
+  background-color: yellow;
+  width: 360px;
+  height: 25px;
+  bottom: 0px;
+  opacity: .2;
+  
+}
+.dubai> p
+{
+  bottom: 5px;
+  left: 230px;
+  font-weight: bold;
+  position: absolute;
+  
+}
+
+.uk{
+  left: 430px;
+  position: absolute;
+}
+.uk>p{
+  position: absolute;
+  bottom: 5px;
+  left: 240px;
+  font-weight: bold;
+}
+.tuk{
+  position: absolute;
+  left: 80px;
+  background-color: yellow;
+  width: 360px;
+  height: 25px;
+  bottom: 0px;
+  opacity: .4;
+  
+}
+
+.rj{
+  left: 850px;
+  position: absolute;
+}
+.rj>p{
+  position: absolute;
+  bottom: 5px;
+  left: 240px;
+  font-weight: bold;
+}
+.trj{
+  position: absolute;
+  left: 80px;
+  background-color: yellow;
+  width: 360px;
+  height: 25px;
+  bottom: 0px;
+  opacity: .4;
+}
+.border{
+  border: 1px solid black;
+  width: 360px;
+  position: absolute;
+  bottom: -32px;
+  left: 79px;
+  height: 30px;
+  border-bottom-left-radius: 20px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding-top: 5px;
+}
+div.package{
+  background-color: yellow;
+  width: 100%;
+  height: 320px;
+}

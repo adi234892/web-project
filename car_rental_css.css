@@ -1,0 +1,74 @@
+#car_section 
+{
+  width: 700px;
+  height: 900px;
+  margin-top: 20px;
+  margin-right: 50px;
+  margin-left: 50px;
+  padding: 17px;
+  float: left;
+  background-color: white;
+  border: 1px solid black;
+  box-shadow: 4px 4px 10px grey;
+  position: absolute;
+}
+
+#car_section>div
+{
+  background-color: lightgrey;
+  border: 2px 2px 0px 2px solid darkgrey;
+}
+#car_section>form>input[type=text],input[type=number],input[type=email]{
+  width: 600px;
+  border-radius: 30px;
+  height: 30px;
+  margin: 5px;
+}
+#contact{
+  margin-top: 90px;
+  margin-right: 50px;
+  width: 300px;
+  float:right;
+  padding: 20px;
+  border: 1px solid black;
+  box-shadow: 4px 4px 10px grey;
+  background-color: white;
+}
+.check
+{
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+label
+{
+  padding: 5px;
+  vertical-align:top;
+}
+#enquiry
+{
+  width: 150px;
+  height: 50px; 
+  border-radius: 25px;
+  margin-left: 230px;
+  background-color: yellow;
+}
+#contact>h1,p{
+  margin-top: 20px;
+  text-align:justify;
+}
+#contact>h1
+{
+  margin-left: 40px;
+  color: dodgerblue;
+
+}
+.footercss
+{
+  clear: both;
+}
+Section{
+  width: 100%;
+  height: 1000px;
+  background-color:#e9e9e9;
+}

@@ -1,0 +1,68 @@
+#slide{
+  width: 100%;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+}
+#slide >img{
+  width: 100%;
+  height: 500px;
+  position: absolute;
+}
+.btn{
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: transparent;
+  top: 250px;
+}
+ #btn1{
+  position:relative;
+  float:right;
+}
+#btn2{
+  position: relative;
+}
+.image{
+}
+section
+{
+  position: relative;
+}
+#fblogo{
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  position: fixed;
+  left:1305px;
+  z-index: 100px;
+  bottom: 250px;
+}
+#ulogo{
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  position: fixed;
+  left:1305px;
+  z-index: 100px;
+  bottom: 220px;
+}
+#tlogo{
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  position: fixed;
+  left:1305px;
+  z-index: 100px;
+  bottom: 190px;
+}
+#ilogo{
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  position: fixed;
+  left:1305px;
+  z-index: 100px;
+  bottom: 160px;
+}
