@@ -159,7 +159,7 @@
      <div id="car_section">
       <h1>Hotel Booking</h1>
        <img width="680px" height="250px" src="hotel.jpg"/>
-       <form method="post" action="#">
+       <form method="post" action="Enquiry_form.php">
          <h1>Enquiry Form</h1>
          <b>Your Name (required)</b><br/>
          <input type="text" name="name"/><br/>
@@ -176,8 +176,8 @@
          <label><input class="check" type="checkbox" name="travel insurance"/>Travel Insurance</label><br/>
          <label><input class="check" type="checkbox" name="hotel_booking"/>Hotel Booking</label><br/>
          <b>Your Message</b><br/>
-         <input type="text"/><br/>
-         <input type="button" id="enquiry" value="ENQUIRY NOW"/>
+         <input type="text" name="message"/><br/>
+         <input type="submit" id="enquiry" value="ENQUIRY NOW"/>
        </form>
     </div>
     <div id="contact">
@@ -196,7 +196,7 @@
    <div id="chat">
      <button id="cbtn" onclick="chat()">Chat  <strong>&#9993;</strong></button>
     <div id="chatform">
-      <form action="#" method="post"> 
+      <form action="Enquiry.php" method="post"> 
         <h2 id="chatE">Quick Enquiry</h2>
         <hr/>
         <input type="text" name="name" placeholder="Name"/><br/>
@@ -204,7 +204,7 @@
         <input type="number" name="number" placeholder="Number"/><br/>
         <input type="text" name="msg" id="msg" placeholder="Message"/>
         <br/>
-        <input type="button" id="submit" value="ENQUIRY NOW"/>
+        <input type="submit" id="submit" value="ENQUIRY NOW"/>
       </form>
      </div>
     </div>

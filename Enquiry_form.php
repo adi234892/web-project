@@ -1,0 +1,49 @@
+<?php
+$name=$_POST['name'];
+$email=$_POST['email'];
+$number=$_POST['number'];
+if(isset($_POST['mice']))
+   $mice=$_POST['mice'];
+else
+   $mice=null;
+if(isset($_POST['cruises']))
+  $cruises=$_POST['cruises'];
+else
+  $cruises=null;
+if(isset($_POST['site']))
+  $sight=$_POST['sight'];
+else
+  $sight=null;
+if(isset($_POST['car']))
+  $car=$_POST['car'];
+else
+  $car=null;
+if(isset($_POST['ticketing']))
+  $ticketing=$_POST['ticketing'];
+else
+  $ticketing=NULL;
+if(isset($_POST['travel_insurance']))
+  $ti=$_POST['travel_insurance'];
+else
+  $ti=null;
+if(isset($_POST['hotel_booking']))
+  $hb=$_POST['hotel_booking'];
+else
+  $hb=null;
+$msg=$_POST['message'];
+$con=mysqli_connect('localhost','root');
+mysqli_select_db($con,'tp');
+$q="insert into enquiry_form(name,email,number,message,mice,cruises,sight,car,ticketing,travel,hotel) values('$name','$email',$number,'$msg','$mice','$cruises','$sight','$car','$ticketing','$ti','$hb')";
+$status=mysqli_query($con,$q);
+mysqli_close($con);
+?>
+<html>
+  <body>
+    <?php
+    if($status)
+      echo  "<h1>submitted</h1>";
+    else
+      echo "not";
+    ?>
+  </body>
+</html>
