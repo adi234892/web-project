@@ -1,4 +1,5 @@
 <?php
+$server=$_SERVER['HTTP_REFERER'];
 $name=$_POST['name'];
 $email=$_POST['email'];
 $number=$_POST['number'];
@@ -41,7 +42,7 @@ mysqli_close($con);
   <body>
     <?php
     if($status)
-      echo  "<h1>submitted</h1>";
+     header('location:'.$server);
     else
       echo "not";
     ?>
